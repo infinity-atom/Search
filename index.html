@@ -37,17 +37,42 @@ h3 {
 .myImg{
 text-align:center;
 }
-.center{
-	text-align: center;
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /*whatever width you want*/
+}
 </style>
-<body>	
+<body>
+	
 	<h1><br></h1>
 	<div class="myImg">
   <img src="https://triple7rules.github.io/Search/g-search.PNG" alt="imag" class="center">
-</div>
-	<div class=>
-		<script async src="https://cse.google.com/cse.js?cx=ba764ac2c4273c32f"></script>
+</div>  <div class="outer">
+  <div class="middle">
+    <div class="inner">
+      <script async src="https://cse.google.com/cse.js?cx=ba764ac2c4273c32f"></script>
 <div class="gcse-searchbox-only"></div>
+      
+    </div>
+  </div>
+</div>
+
                                       
 </body>
 
